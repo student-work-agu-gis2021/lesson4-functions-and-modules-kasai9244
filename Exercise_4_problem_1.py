@@ -44,7 +44,8 @@ print("71 degrees Fahrrenheit in Celsius is:", fahr_to_celsius(71))
 #   2. What are some of the benefits of using functions?
 #   
 # Write your answers below:
-
+#   1. I understand it clearly.
+#   2. Using functions saves you the trouble of writing code.
 # YOUR ANSWER HERE. Write your answers as comments
 #
 #
