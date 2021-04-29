@@ -20,6 +20,17 @@
 
 # YOUR CODE HERE
 def fahr_to_celsius(temp_fahrenheit):
+  """華氏から摂氏に温度を変換する関数
+  Parameters:
+  ---------
+  temp_fahrenheit:
+  float　華氏温度
+  
+  returns:
+  ---------
+  float 摂氏温度
+  """
+
   return (temp_fahrenheit-32) / 1.8
 
 # ### Problem 1 tests
