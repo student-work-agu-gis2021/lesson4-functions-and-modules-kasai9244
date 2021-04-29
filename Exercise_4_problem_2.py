@@ -26,6 +26,18 @@
 
 # YOUR CODE HERE to define temp_classifier
 def temp_classifier(temp_celsius):
+   """摂氏温度を温度ごとにクラス分けする関数
+
+    Parameter:
+    ----------
+    temp_celsius : float
+        摂氏温度
+        
+    returns :
+    ----------
+    int
+        分けられたクラスの番号
+    """
   if(temp_celsius < -2):
     return 0
   elif(temp_celsius < 2):
