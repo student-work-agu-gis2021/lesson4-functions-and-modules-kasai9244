@@ -89,9 +89,9 @@ print("ok :)")
 
 # YOUR ANSWER HERE. Write your answer as comments
 #
-#
-#
-#
+#-All variables are correct.
+#-My code has enough comments.
+#-It has an informative docstring.
 #
 # YOUR ANSWER ENDS HERE
 
