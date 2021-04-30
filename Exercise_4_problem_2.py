@@ -26,26 +26,26 @@
 
 # YOUR CODE HERE to define temp_classifier
 def temp_classifier(temp_celsius):
-   """摂氏温度を温度ごとにクラス分けする関数
+  if temp_celsius < -2:
+    return 0
+  elif temp_celsius < 2:
+    return 1
+  elif temp_celsius < 15:
+    return 2
+  else:
+    return 3
+"""摂氏温度を温度ごとにクラス分けする関数
 
     Parameter:
     ----------
     temp_celsius : float
         摂氏温度
-        
+
     returns :
     ----------
     int
         分けられたクラスの番号
     """
-  if(temp_celsius < -2):
-    return 0
-  elif(temp_celsius < 2):
-    return 1
-  elif(temp_celsius <15):
-    return 2
-  else:
-    return 3
 
 
 # Use your newly created function to print the answers to the following questions:
@@ -53,10 +53,10 @@ def temp_classifier(temp_celsius):
 
 # 1. What is the class value for 16.5 degrees Celsius?
 # YOUR CODE HERE
-#
+print(temp_classifier(16.5))
 # 2. What is the class value for +2 degrees Celsius?
 # YOUR CODE HERE
-#
+print(temp_classifier(2))
 
 
 # ### Problem 2 tests
