@@ -34,17 +34,17 @@ def temp_classifier(temp_celsius):
     return 2
   else:
     return 3
-"""摂氏温度を温度ごとにクラス分けする関数
+"""A function that classifies temperatures in degrees Celsius by temperature
 
     Parameter:
     ----------
     temp_celsius : float
-        摂氏温度
+        celsius temperature
 
     returns :
     ----------
     int
-        分けられたクラスの番号
+        class number
     """
 
 
