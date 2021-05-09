@@ -87,7 +87,7 @@ zeros = 0
 ones = 0
 twos = 0
 threes = 0
-for i in range(ken(temp_classes)):
+for i in range(len(temp_classes)):
   if temp_classes[i]==0:
     zeros += 1
   elif temp_classes[i]==1:
